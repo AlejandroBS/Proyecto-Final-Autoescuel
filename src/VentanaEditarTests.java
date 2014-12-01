@@ -352,7 +352,7 @@ public class VentanaEditarTests extends JFrame {
         int leido = 0;
         
         try {
-            Socket socket = new Socket("127.0.0.1",8440);
+            Socket socket = new Socket("192.168.1.40",8400);
             ObjectOutputStream salida = new ObjectOutputStream(socket.getOutputStream());
             ObjectInputStream entrada = new ObjectInputStream(socket.getInputStream());
             
