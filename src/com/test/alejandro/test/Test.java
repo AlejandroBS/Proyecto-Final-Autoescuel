@@ -1,3 +1,6 @@
+package com.test.alejandro.test;
+
+import com.test.alejandro.test.Pregunta;
 import java.io.Serializable;
 
 

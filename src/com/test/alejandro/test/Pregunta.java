@@ -1,12 +1,12 @@
+package com.test.alejandro.test;
 
-import java.awt.image.BufferedImage;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
-
 import javax.swing.ImageIcon;
 
 public class Pregunta implements Serializable {
@@ -15,7 +15,8 @@ public class Pregunta implements Serializable {
 	/**
 	 * 
 	 */
-	//private static final long serialVersionUID = -3902132514932282124L;
+	
+       private static final long serialVersionUID = -3902132514932282124L;
 	//private ImageIcon imagen;
 	private int numeroPregunta = 0;
 	private String enunciado = "";

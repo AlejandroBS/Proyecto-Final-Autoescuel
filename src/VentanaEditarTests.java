@@ -1,3 +1,5 @@
+import com.test.alejandro.test.Test;
+import com.test.alejandro.test.Pregunta;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
@@ -139,7 +141,9 @@ public class VentanaEditarTests extends JFrame {
                     //test.aumentarVersion();
                     oos.writeInt(test.getNumPregMax());
                     oos.writeInt(test.getNumPregInsertadas());
-                    oos.writeObject(test);
+                    //oos.writeObject(test);
+                    oos.writeObject((Object) test);
+                    //oos.writeUnshared(test);
                     oos.close();
 
                 } catch (FileNotFoundException e1) {
