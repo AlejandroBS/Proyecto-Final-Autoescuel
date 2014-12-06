@@ -90,7 +90,6 @@ public class VentanaEditarTests extends JFrame {
         this.rutaTest = rutaTest;
         // inserto los elementos en la ventana
         insertarElementos();
-
         numPreguntasMaximas = numPregMax;
         lbl_nombreTest.setText(str_nombreTest);
         lbl_numeroPregunta.setText("Pregunta: 1");
@@ -265,6 +264,7 @@ public class VentanaEditarTests extends JFrame {
         cargarPreguntas();
 
         pintarPregunta();
+        this.setState(MAXIMIZED_BOTH);
 
     }
 
